@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registeration</title>
+    <link rel="stylesheet" href="../public/css/style.css">
+</head>
+
+<body>
+    <!-- Page header -->
+    <header>
+        <nav>
+            <!-- Page Menu -->
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="road_map.html">Road Map</a></li>
+                <li> <a href="registeration.html">Registeration Form</a></li>
+                <li><a href="https://www.iti.gov.eg/iti/home" target="_blank">Contact</a></li>
+            </ul>
+            <a class="logo" href="../index.html">
+                <img src="../public/imgs/ITI_logo.png" alt="" width="100">
+
+            </a>
+        </nav>
+    </header>
+
+
+    <div class="registeration">
+        <h2>
+            Register - Create Account
+        </h2>
+        <p>
+            Field marked with <span class="required">*</span> are required fields
+        </p>
+
+        <form action="" method="POST">
+            <table>
+                <tr>
+                    <td class="table_label">
+                        <label for="name"><span class="required">*</span>Your Name</label>
+                    </td>
+                    <td><input type="text" name="name" id="name" required size="50"></td>
+                </tr>
+                <tr>
+                    <td class="table_label">
+                        <label for="email"><span class="required">*</span>Your Email</label>
+                    </td>
+                    <td><input type="email" name="email" id="email" required size="75"></td>
+                </tr>
+                <tr>
+                    <td class="table_label">
+                        <label for="alt_email">Your Alternate Email</label>
+                    </td>
+                    <td><input type="email" name="alt_email" id="alt_email" size="75"></td>
+                </tr>
+                <tr>
+                    <td class="table_label">
+                        <label for="phone">Your Phone</label>
+                    </td>
+                    <td style="display: flex;">
+                        <div>
+                            <label style="display: block; text-align: center;" for="country_code">country code</label>
+                            <input type="text" name="country_code" id="country_code" size="8">
+                        </div>
+                        <div>
+                            <label style="display: block; text-align: center;" for="city_code">city code</label>
+                            <input style="margin-right: 5px;margin-left: 5px;" type="text" name="city_code" id="city_code" size="5">
+                        </div>
+                        <div>
+                            <label style="display: block; text-align: center;" for="phone">phone number</label>
+                            <input type="text" name="phone" id="phone" size="25">
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="table_label">
+                        <label for="mobile"><span class="required">*</span>Your Mobile</label>
+                    </td>
+                    <td><input type="text" name="mobile" id="mobile" required size="50"></td>
+                </tr>
+                <tr>
+                    <td class="table_label">
+                        <label for="address"><span class="required">*</span>Your Address</label>
+                    </td>
+                    <td><textarea name="address" id="address" cols="50" rows="7"></textarea></td>
+                </tr>
+                <tr>
+                    <td class="table_label">
+                        <label for="country"><span class="required">*</span>Your Country</label>
+                    </td>
+                    <td>
+                        <select style="width: 50%;text-align: center;" name="country" id="country">
+                            <option value="select" disabled selected>
+                                ----------------Select One----------------
+                            </option>
+
+                            <option value="eg">Egypt</option>
+                            <option value="usa">United States</option>
+                            <option value="uk">United Kingdom</option>
+                            
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="table_label">
+                        <label for="password"><span class="required">*</span>Your Password</label>
+                    </td>
+                    <td><input type="password" name="password" id="password" required size="30"></td>
+                </tr>
+                <tr>
+                    <td class="table_label">
+                        <label for="password_confirmation"><span class="required">*</span>Re-Enter Password</label>
+                    </td>
+                    <td><input type="password" name="password_confirmation" id="password_confirmation" required size="30"></td>
+                </tr>
+            </table>
+
+            <div class="form-options" style="text-align: center;">
+                <div class="terms">
+                    <input type="checkbox" name="terms" id="terms" required> <label for="terms">I accept the <a style="text-decoration:none;color: blue;" href="">Terms of use</a></label>
+                </div>
+                <div class="buttons">
+                    <input type="submit" name="submit" value="Continue >>">
+                    <input type="reset" name="reset" value="Reset">
+                </div>
+            </div>
+        </form>
+    </div>
+
+
+
+    <!-- Page footer -->
+    <footer>
+        <p>Copyright &copy; 2022 by Tarek Khalifa &reg;. All Rights Reserved.</p>
+    </footer>
+</body>
+
+</html>

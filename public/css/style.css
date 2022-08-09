@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Start Header  */
+
+header {
+    background-color: #333;
+}
+
+header nav ul {
+    list-style-type: none;
+    overflow: hidden;
+    display: inline-block;
+}
+
+header nav li {
+    float: left;
+}
+
+header nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 10px;
+    text-decoration: none;
+}
+
+header nav li a:hover {
+    background-color: #111;
+}
+
+.logo {
+    float: right;
+}
+
+
+/* End Header  */
+
+
+/* Start Index Page content */
+
+main {
+    text-align: center;
+}
+
+main a img {
+    width: 900px;
+    height: 80%;
+}
+
+
+/* End Index Page content */
+
+
+/* Start Road Map content */
+
+.road_map {
+    padding-top: 40px;
+    padding-left: 10px;
+}
+
+.road_map h1 {
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+.road_map p {
+    text-align: left;
+    padding-bottom: 20px;
+    font-size: 1.2rem;
+}
+
+.road_map p span {
+    font-weight: bold;
+}
+
+.track_categories {
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-bottom: 30px;
+    /* border: 1px solid red; */
+}
+
+.track_categories .heading {
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+}
+
+.track_categories ol {
+    padding-left: 20px;
+}
+
+section {
+    padding-top: 40px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+section div {
+    display: inline-block;
+    width: 48%;
+}
+
+section div h4 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+
+section div ul {
+    list-style: disc;
+    padding-left: 25px;
+}
+
+.top {
+    text-align: center;
+    padding: 5px;
+}
+
+.top a {
+    display: inline-block;
+    padding: 5px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+}
+
+
+/* End Road Map content */
+
+
+/* Start Registeration Page content */
+
+.registeration {
+    margin: 10px auto;
+    width: 60%;
+    height: 85vh;
+    background-color: gray;
+    border: 2px solid black;
+    color: black;
+    padding: 0 10px;
+}
+
+.registeration .required {
+    color: red;
+    font-weight: bold;
+}
+
+.registeration h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.registeration p {
+    border: 1px dashed black;
+    color: black;
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding: 5px;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+}
+
+form input,
+textarea,
+select {
+    margin-left: 5px;
+}
+
+table tr {
+    width: 100%;
+}
+
+table .table_label {
+    width: 35%;
+    background-color: darkgray;
+    text-align: right;
+    margin-right: 10px;
+    padding: 3px;
+}
+
+.form-options {
+    margin-top: 20px;
+}
+
+.terms {
+    margin-bottom: 10px;
+}
+
+.buttons input {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.buttons :nth-child(1) {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 9999px;
+}
+
+.buttons :nth-child(2) {
+    background-color: red;
+    border: none;
+}
+
+
+/* End Registeration Page content */
+
+
+/*    Start Footer   */
+
+footer {
+    background-color: #333;
+    padding: 20px 10px;
+    border-top: 1px solid black;
+}
+
+footer p {
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+
+
+/*    End Footer   */
